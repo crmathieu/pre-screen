@@ -83,6 +83,7 @@ func NewUser(id int, birthday time.Time, cache *Cache) *User {
   if id >= 0 {
     u.id = id
   } else {
+    // this will not happen...
     u.id = int(cache.rc.Incr(APP_PREFIX+"user-ids").Val());
   }
   u.birthday = birthday
