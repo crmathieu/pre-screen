@@ -1,0 +1,22 @@
+{
+  "name": "pre-screen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deanshelton913/pre-screen.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deanshelton913/pre-screen/issues"
+  },
+  "homepage": "https://github.com/deanshelton913/pre-screen#readme",
+  "dependencies": {
+    "redis": "^2.8.0"
+  }
+}
