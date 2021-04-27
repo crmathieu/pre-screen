@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/deanshelton913/pre-screen#readme",
   "dependencies": {
-    "redis": "^2.8.0"
+    "redis": "^3.1.1"
   }
 }
